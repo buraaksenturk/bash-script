@@ -41,21 +41,21 @@ else
     echo "yanlıs durum"
 fi
 
-if [ $1 -eq $a ] # esitlik durumunu kontrol etmek icin kullanılır. -eq = equal
+if [ $1 -eq $a ] # esitlik durumunu kontrol etmek icin kullanılır.
 then
     echo "girilen deger dogru"
 else
     echo "girilen deger yanlıs"
 fi
 
-if [ $1 -lt $a ] # kucuktur anlamına gelir. -lt = less then
+if [ $1 -lt $a ] # kucuktur anlamına gelir.
 then
     echo "girilen deger $a'dan kucuktur"
 else
     echo "girilen deger $a'dan buyuk veya esittir"
 fi
 
-if [ $1 -gt 3 ] # buyuktur anlamına gelir. -gt = greater then
+if [ $1 -gt 3 ] # buyuktur anlamına gelir.
 then
     echo "girilen deger 3'ten buyuktur"
 elif [[ $1 -eq 3 ]]; #bu şekilde de kullanılabilir.
